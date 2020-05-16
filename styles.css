@@ -1,0 +1,153 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+h1{
+  font-family:"Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+
+}
+h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+body{
+  font-family:"Montserrat";
+}
+
+
+/*navigation*/
+.navbar{
+  padding:0 0 4.5rem;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.but{
+  padding-top: 3.5rem;
+}
+.nav-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*TITILE IMAGE*/
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  }
+  @media (max-width:1028px) {
+    #title{
+      text-align: center;
+
+    }
+    .title-image{
+    transform: rotate(0deg);
+    position:static;
+
+
+  }
+}
+
+#features{
+  padding: 8% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+p{
+  color: grey;
+}
+.icon{
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  }
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 8% 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-card{
+  padding: 3% 2%;
+
+}
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  padding: 8% 15%;
+  color: #fff;
+}
+.h3{
+  font-size: 3.5rem;
+  font-weight: bold;
+
+}
+#footer{
+  background-color: #fff;
+  padding: 8% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 30px 15px;
+}
